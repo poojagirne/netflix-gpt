@@ -1,9 +1,15 @@
-import "./App.css";
+import { createBrowserRouter } from "react-router-dom";
+import Login from "./components/Login";
+import Browse from "./components/Browse";
 
 function App() {
+  const appRouter = createBrowserRouter([
+    { path: "/", element: <Login /> },
+    { path: "/browse", element: <Browse /> },
+  ]);
   return (
     <div className="App">
-      <h1 className="text-5xl font-bold text-green-800">hello pooja </h1>
+      <Login />
     </div>
   );
 }
