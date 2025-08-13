@@ -1,5 +1,5 @@
 - Created Rract App
-- caonfig Tailwind
+- Configured Tailwind
 
 #Features
 - Login /Sign up
